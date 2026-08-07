@@ -1,0 +1,13 @@
+
+node_modules/
+.env
+.DS_Store
+.expo/
+dist/
+build/
+coverage/
+*.log
+
+# Personal/Internal docs
+# master_specification.md
+to-do.md

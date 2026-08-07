@@ -1,0 +1,6 @@
+{
+  "name": "SensorySpaces",
+  "description": "Sensory-friendly event and venue discovery platform for children with Autism Spectrum Disorder (ASD)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,273 @@
+[
+    {
+        "attribute": "noiseLevel",
+        "phrase": "quiet hour",
+        "value": "Quiet",
+        "strength": 1.0
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "low noise",
+        "value": "Quiet",
+        "strength": 0.95
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "reduced sound",
+        "value": "Quiet",
+        "strength": 0.9
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "audio compatible",
+        "value": "Quiet",
+        "strength": 0.85
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "quiet room available",
+        "value": "Quiet",
+        "strength": 0.95
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "sound-reduced",
+        "value": "Quiet",
+        "strength": 0.9
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "dimmed lights",
+        "value": "Dim",
+        "strength": 1.0
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "reduced lighting",
+        "value": "Dim",
+        "strength": 1.0
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "low light",
+        "value": "Dim",
+        "strength": 0.95
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "adjusted lighting",
+        "value": "Adjustable",
+        "strength": 0.9
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "lighting accommodations",
+        "value": "Adjustable",
+        "strength": 0.85
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "natural light",
+        "value": "Natural",
+        "strength": 0.8
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "small crowd",
+        "value": "Small",
+        "strength": 1.0
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "limited attendance",
+        "value": "Small",
+        "strength": 0.95
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "low capacity",
+        "value": "Small",
+        "strength": 0.95
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "intimate group",
+        "value": "Small",
+        "strength": 0.9
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "early access",
+        "value": "Small",
+        "strength": 0.85
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "private session",
+        "value": "Small",
+        "strength": 1.0
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "sensory hours",
+        "value": "Small",
+        "strength": 0.9
+    },
+    {
+        "phrase": "sensory-friendly",
+        "tags": [
+            "sensory_friendly"
+        ],
+        "strength": 1.0,
+        "description": "Core sensory-friendly designation"
+    },
+    {
+        "phrase": "sensory inclusive",
+        "tags": [
+            "sensory_friendly"
+        ],
+        "strength": 1.0,
+        "description": "Inclusive sensory designation"
+    },
+    {
+        "phrase": "neurodivergent friendly",
+        "tags": [
+            "sensory_friendly",
+            "neurodivergent"
+        ],
+        "strength": 1.0,
+        "description": "Neurodivergent inclusive"
+    },
+    {
+        "phrase": "autism friendly",
+        "tags": [
+            "sensory_friendly",
+            "autism_friendly"
+        ],
+        "strength": 1.0,
+        "description": "Explicitly autism-friendly"
+    },
+    {
+        "phrase": "sensory session",
+        "tags": [
+            "sensory_friendly"
+        ],
+        "strength": 0.95,
+        "description": "Dedicated sensory session"
+    },
+    {
+        "phrase": "reduced stimulation",
+        "tags": [
+            "sensory_friendly",
+            "low_stimulus"
+        ],
+        "strength": 0.9,
+        "description": "Low sensory stimulation"
+    },
+    {
+        "phrase": "therapeutic play",
+        "tags": [
+            "therapeutic"
+        ],
+        "strength": 1.0,
+        "description": "Therapeutic activity"
+    },
+    {
+        "phrase": "adaptive play",
+        "tags": [
+            "therapeutic",
+            "adaptive"
+        ],
+        "strength": 0.95,
+        "description": "Adaptive programming"
+    },
+    {
+        "phrase": "sensory play",
+        "tags": [
+            "therapeutic",
+            "sensory_play"
+        ],
+        "strength": 0.9,
+        "description": "Sensory play activity"
+    },
+    {
+        "phrase": "kulturecity certified",
+        "tags": [
+            "certified_venue"
+        ],
+        "strength": 1.0,
+        "description": "KultureCity certification"
+    },
+    {
+        "phrase": "sensory-inclusive certified",
+        "tags": [
+            "certified_venue"
+        ],
+        "strength": 1.0,
+        "description": "Certified sensory venue"
+    },
+    {
+        "phrase": "visual schedule",
+        "tags": [
+            "visual_supports"
+        ],
+        "strength": 0.9,
+        "description": "Visual schedule provided"
+    },
+    {
+        "phrase": "social story",
+        "tags": [
+            "visual_supports"
+        ],
+        "strength": 0.9,
+        "description": "Social story available"
+    },
+    {
+        "phrase": "sensory tools",
+        "tags": [
+            "sensory_tools"
+        ],
+        "strength": 0.85,
+        "description": "Sensory tools available"
+    },
+    {
+        "phrase": "noise-canceling headphones",
+        "tags": [
+            "sensory_tools"
+        ],
+        "strength": 0.9,
+        "description": "Headphones provided"
+    },
+    {
+        "phrase": "fidget",
+        "tags": [
+            "sensory_tools"
+        ],
+        "strength": 0.7,
+        "description": "Fidget tools available"
+    },
+    {
+        "phrase": "relaxed performance",
+        "tags": [
+            "relaxed_rules"
+        ],
+        "strength": 0.95,
+        "description": "Relaxed theater/performance"
+    },
+    {
+        "phrase": "calm exploration",
+        "tags": [
+            "calm_environment"
+        ],
+        "strength": 0.85,
+        "description": "Calm, gentle event"
+    },
+    {
+        "phrase": "gentle event",
+        "tags": [
+            "calm_environment"
+        ],
+        "strength": 0.8,
+        "description": "Gentle, low-key event"
+    }
+]

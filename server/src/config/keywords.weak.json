@@ -1,0 +1,240 @@
+[
+    {
+        "attribute": "noiseLevel",
+        "phrase": "library",
+        "value": "Quiet",
+        "strength": 0.6
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "story time",
+        "value": "Moderate",
+        "strength": 0.5,
+        "note": "Can be loud with children"
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "concert",
+        "value": "Loud",
+        "strength": 0.7
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "festival",
+        "value": "Loud",
+        "strength": 0.6
+    },
+    {
+        "attribute": "noiseLevel",
+        "phrase": "parade",
+        "value": "Loud",
+        "strength": 0.65
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "outdoor",
+        "value": "Natural",
+        "strength": 0.7
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "nature walk",
+        "value": "Natural",
+        "strength": 0.8
+    },
+    {
+        "attribute": "lighting",
+        "phrase": "hiking",
+        "value": "Natural",
+        "strength": 0.75
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "workshop",
+        "value": "Small",
+        "strength": 0.6
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "class",
+        "value": "Small",
+        "strength": 0.55
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "support group",
+        "value": "Small",
+        "strength": 0.7
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "meetup",
+        "value": "Small",
+        "strength": 0.5
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "fair",
+        "value": "Large",
+        "strength": 0.65
+    },
+    {
+        "attribute": "crowdDensity",
+        "phrase": "community event",
+        "value": "Moderate",
+        "strength": 0.5
+    },
+    {
+        "phrase": "museum",
+        "tags": [
+            "museum",
+            "indoor"
+        ],
+        "strength": 0.6
+    },
+    {
+        "phrase": "aquarium",
+        "tags": [
+            "animal_interaction",
+            "indoor"
+        ],
+        "strength": 0.5
+    },
+    {
+        "phrase": "zoo",
+        "tags": [
+            "animal_interaction",
+            "outdoor"
+        ],
+        "strength": 0.5
+    },
+    {
+        "phrase": "petting zoo",
+        "tags": [
+            "animal_interaction",
+            "interactive"
+        ],
+        "strength": 0.65
+    },
+    {
+        "phrase": "farm visit",
+        "tags": [
+            "animal_interaction",
+            "outdoor"
+        ],
+        "strength": 0.6
+    },
+    {
+        "phrase": "painting",
+        "tags": [
+            "art_crafts"
+        ],
+        "strength": 0.6
+    },
+    {
+        "phrase": "arts and crafts",
+        "tags": [
+            "art_crafts"
+        ],
+        "strength": 0.7
+    },
+    {
+        "phrase": "creative",
+        "tags": [
+            "art_crafts"
+        ],
+        "strength": 0.4
+    },
+    {
+        "phrase": "movie",
+        "tags": [
+            "entertainment",
+            "indoor"
+        ],
+        "strength": 0.5
+    },
+    {
+        "phrase": "film screening",
+        "tags": [
+            "entertainment",
+            "indoor"
+        ],
+        "strength": 0.5
+    },
+    {
+        "phrase": "theater",
+        "tags": [
+            "performance",
+            "indoor"
+        ],
+        "strength": 0.5
+    },
+    {
+        "phrase": "play",
+        "tags": [
+            "performance"
+        ],
+        "strength": 0.4,
+        "note": "Ambiguous - could be performance or playground"
+    },
+    {
+        "phrase": "playground",
+        "tags": [
+            "outdoor",
+            "physical_activity"
+        ],
+        "strength": 0.6
+    },
+    {
+        "phrase": "park",
+        "tags": [
+            "outdoor",
+            "nature"
+        ],
+        "strength": 0.5
+    },
+    {
+        "phrase": "trail",
+        "tags": [
+            "outdoor",
+            "nature",
+            "hiking"
+        ],
+        "strength": 0.6
+    },
+    {
+        "phrase": "family",
+        "tags": [
+            "family_friendly"
+        ],
+        "strength": 0.5
+    },
+    {
+        "phrase": "parent and child",
+        "tags": [
+            "family_friendly"
+        ],
+        "strength": 0.6
+    },
+    {
+        "phrase": "special needs",
+        "tags": [
+            "inclusive"
+        ],
+        "strength": 0.7
+    },
+    {
+        "phrase": "inclusive",
+        "tags": [
+            "inclusive"
+        ],
+        "strength": 0.6
+    },
+    {
+        "phrase": "accommodating",
+        "tags": [
+            "inclusive"
+        ],
+        "strength": 0.55
+    }
+]

@@ -1,0 +1,324 @@
+{
+    "searchPhrases": {
+        "core": [
+            "sensory-friendly events",
+            "autism friendly activities near me",
+            "quiet hours for families",
+            "low noise event times",
+            "sensory inclusive museum visit times",
+            "reduced lighting sessions",
+            "special needs community events",
+            "therapeutic play events",
+            "family autism meetup",
+            "neurodivergent friendly events",
+            "sensory play zones"
+        ],
+        "activityBased": [
+            "painting arts crafts adaptive",
+            "sensory-friendly museum visits",
+            "sensory nature walks",
+            "sensory art crafts",
+            "autism support meetups",
+            "adaptive outdoor play programs"
+        ],
+        "awarenessEvents": [
+            "autism sunday",
+            "world autism month events",
+            "autism awareness parades",
+            "community inclusion fairs"
+        ]
+    },
+    "autocomplete": [
+        {
+            "trigger": "sensory",
+            "suggestions": [
+                "sensory-friendly events",
+                "sensory play zones",
+                "sensory-friendly museum visits",
+                "sensory nature walks",
+                "sensory art & crafts"
+            ]
+        },
+        {
+            "trigger": "quiet",
+            "suggestions": [
+                "quiet hours events",
+                "quiet room available",
+                "low noise event times"
+            ]
+        },
+        {
+            "trigger": "museum",
+            "suggestions": [
+                "sensory-friendly museum visits",
+                "museum quiet hours",
+                "museum sensory guides"
+            ]
+        },
+        {
+            "trigger": "family",
+            "suggestions": [
+                "family autism activities",
+                "family autism meetup",
+                "family events"
+            ]
+        },
+        {
+            "trigger": "nature",
+            "suggestions": [
+                "sensory nature walks",
+                "outdoor nature activities",
+                "gentle exploration events"
+            ]
+        },
+        {
+            "trigger": "craft",
+            "suggestions": [
+                "sensory art & crafts",
+                "adaptive art programs",
+                "therapeutic art sessions"
+            ]
+        },
+        {
+            "trigger": "support",
+            "suggestions": [
+                "autism support meetups",
+                "parent support groups",
+                "community support events"
+            ]
+        }
+    ],
+    "synonymMapping": {
+        "low_noise": [
+            "quiet hours",
+            "low noise",
+            "reduced sound",
+            "quiet room available",
+            "audio compatible",
+            "sound-reduced"
+        ],
+        "sensory_friendly": [
+            "sensory-friendly",
+            "sensory inclusive",
+            "reduced stimulation",
+            "sensory session",
+            "sensory aware",
+            "neurodivergent friendly"
+        ],
+        "low_lighting": [
+            "reduced lighting",
+            "dimmed lights",
+            "low light",
+            "adjusted lighting",
+            "lighting accommodations"
+        ],
+        "small_crowd": [
+            "small crowd",
+            "low capacity",
+            "intimate group",
+            "limited attendance",
+            "early access",
+            "private session"
+        ],
+        "therapeutic": [
+            "therapeutic play",
+            "adaptive play",
+            "developmental support",
+            "sensory play equipment"
+        ],
+        "certified_venue": [
+            "kulturecity certified",
+            "sensory-inclusive certified",
+            "autism certified",
+            "certified sensory venue"
+        ]
+    },
+    "profileFilters": {
+        "sensoryEnvironment": [
+            {
+                "id": "low_noise",
+                "label": "Low Noise Events",
+                "description": "Quiet environments with reduced sound levels"
+            },
+            {
+                "id": "reduced_lighting",
+                "label": "Reduced Lighting Sessions",
+                "description": "Dimmed or adjustable lighting"
+            },
+            {
+                "id": "quiet_room",
+                "label": "Quiet Room Available",
+                "description": "Dedicated calm-down space on-site"
+            },
+            {
+                "id": "small_crowd",
+                "label": "Small Crowd Expected",
+                "description": "Limited attendance or private sessions"
+            },
+            {
+                "id": "sensory_tools",
+                "label": "Sensory Tools Provided",
+                "description": "Noise-canceling headphones, fidgets, weighted items"
+            }
+        ],
+        "activityTypes": [
+            {
+                "id": "museum",
+                "label": "Museum",
+                "keywords": [
+                    "museum",
+                    "exhibition",
+                    "gallery",
+                    "science center"
+                ]
+            },
+            {
+                "id": "nature_walk",
+                "label": "Outdoor Nature Walk",
+                "keywords": [
+                    "nature walk",
+                    "hiking",
+                    "outdoor exploration",
+                    "trail"
+                ]
+            },
+            {
+                "id": "animal_interaction",
+                "label": "Animal Interaction / Petting Zoo",
+                "keywords": [
+                    "petting zoo",
+                    "animal encounter",
+                    "farm visit",
+                    "aquarium"
+                ]
+            },
+            {
+                "id": "art_crafts",
+                "label": "Art & Crafts",
+                "keywords": [
+                    "painting",
+                    "arts and crafts",
+                    "creative",
+                    "art class"
+                ]
+            },
+            {
+                "id": "therapeutic_play",
+                "label": "Therapeutic Play Sessions",
+                "keywords": [
+                    "therapeutic",
+                    "sensory play",
+                    "adaptive play",
+                    "developmental"
+                ]
+            },
+            {
+                "id": "movie_screening",
+                "label": "Movie Screenings (Sensory Friendly)",
+                "keywords": [
+                    "movie",
+                    "film",
+                    "cinema",
+                    "theater screening"
+                ]
+            },
+            {
+                "id": "performance",
+                "label": "Performances (Relaxed)",
+                "keywords": [
+                    "theater",
+                    "play",
+                    "performance",
+                    "show",
+                    "concert"
+                ]
+            },
+            {
+                "id": "playground",
+                "label": "Sensory-Friendly Playground",
+                "keywords": [
+                    "playground",
+                    "play area",
+                    "outdoor play",
+                    "park"
+                ]
+            }
+        ],
+        "eventFeatures": [
+            {
+                "id": "visual_schedule",
+                "label": "Visual Schedules Provided",
+                "description": "Visual supports to prepare for the event"
+            },
+            {
+                "id": "social_stories",
+                "label": "Social Stories Available",
+                "description": "Pre-visit narratives explaining what to expect"
+            },
+            {
+                "id": "pre_visit_info",
+                "label": "Pre-Visit Information Available",
+                "description": "Photos, videos, or guides available before attending"
+            },
+            {
+                "id": "quiet_zones",
+                "label": "Quiet Zones Available",
+                "description": "Multiple calm spaces throughout venue"
+            },
+            {
+                "id": "certified_inclusive",
+                "label": "Certified Sensory-Inclusive Venue",
+                "description": "KultureCity or similar certification"
+            },
+            {
+                "id": "flexible_exit",
+                "label": "Flexible Exit/Re-entry",
+                "description": "Can leave and return without penalty"
+            }
+        ],
+        "audienceGroups": [
+            {
+                "id": "family_events",
+                "label": "Family Events"
+            },
+            {
+                "id": "parent_child",
+                "label": "Parent & Child Activities"
+            },
+            {
+                "id": "teen_adult",
+                "label": "Teen / Adult Neurodivergent Events"
+            },
+            {
+                "id": "support_group",
+                "label": "Support Group Events"
+            },
+            {
+                "id": "community_fair",
+                "label": "Inclusive Community Fairs"
+            }
+        ]
+    },
+    "tagWeights": {
+        "sensory_friendly": 1.0,
+        "low_noise": 0.9,
+        "certified_inclusive": 0.95,
+        "quiet_room": 0.85,
+        "small_crowd": 0.8,
+        "reduced_lighting": 0.8,
+        "visual_schedule": 0.75,
+        "sensory_tools": 0.7,
+        "therapeutic": 0.7,
+        "social_stories": 0.65
+    },
+    "communityDrivenTerms": [
+        "sensory-friendly Sunday",
+        "early access events",
+        "adaptive outdoor play",
+        "inclusion fair",
+        "relaxed performance",
+        "calm exploration",
+        "gentle event",
+        "accommodating venue"
+    ]
+}
