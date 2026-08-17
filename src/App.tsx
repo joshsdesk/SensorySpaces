@@ -253,7 +253,8 @@ export default function App() {
 
               <button
                 onClick={() => setLeftSidebarOpen(false)}
-                className="md:hidden p-1 rounded-md text-slate-400 hover:text-white"
+                aria-label="Close navigation menu"
+                className="md:hidden p-1 rounded-md text-slate-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -265,7 +266,7 @@ export default function App() {
                 <div className={`text-xs font-semibold tracking-wider uppercase mb-3 ${theme === 'dark' ? 'text-zinc-500' : 'text-slate-400'}`}>
                   NAVIGATION
                 </div>
-                <nav className="space-y-1 text-sm font-medium">
+                <nav aria-label="Main Navigation" className="space-y-1 text-sm font-medium">
                   <button
                     onClick={() => { setActiveTab('feed'); setLeftSidebarOpen(false); }}
                     className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all ${
@@ -410,7 +411,8 @@ export default function App() {
             {/* Mobile Left Sidebar Trigger */}
             <button
               onClick={() => setLeftSidebarOpen(true)}
-              className="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/50"
+              aria-label="Open navigation menu"
+              className="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/50 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none"
             >
               <Menu className="w-5 h-5" />
             </button>
@@ -432,7 +434,8 @@ export default function App() {
               {searchQuery && (
                 <button
                   onClick={() => setSearchQuery('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-200"
+                  aria-label="Clear search input"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-200 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none rounded-sm"
                 >
                   <X className="w-3.5 h-3.5" />
                 </button>
@@ -473,7 +476,8 @@ export default function App() {
               {/* Mobile Right Sidebar Trigger */}
               <button
                 onClick={() => setRightSidebarOpen(true)}
-                className="xl:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/50"
+                aria-label="Open community panel"
+                className="xl:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/50 focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none"
               >
                 <Users className="w-5 h-5 text-indigo-400" />
               </button>
@@ -1161,7 +1165,11 @@ export default function App() {
             {/* Mobile Close Button */}
             <div className="flex items-center justify-between xl:hidden pb-3 border-b border-zinc-800">
               <span className="font-bold text-sm text-white">Community Panel</span>
-              <button onClick={() => setRightSidebarOpen(false)} className="text-zinc-400 hover:text-white">
+              <button
+                onClick={() => setRightSidebarOpen(false)}
+                aria-label="Close community panel"
+                className="text-zinc-400 hover:text-white focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none rounded-md"
+              >
                 <X className="w-5 h-5" />
               </button>
             </div>
@@ -1255,7 +1263,8 @@ export default function App() {
           }`}>
             <button
               onClick={() => setSelectedEvent(null)}
-              className="absolute top-4 right-4 p-1.5 text-zinc-400 hover:text-white rounded-lg"
+              aria-label="Close details"
+              className="absolute top-4 right-4 p-1.5 text-zinc-400 hover:text-white rounded-lg focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none"
             >
               <X className="w-5 h-5" />
             </button>
@@ -1322,7 +1331,8 @@ export default function App() {
           }`}>
             <button
               onClick={() => setShowTipsModal(false)}
-              className="absolute top-4 right-4 p-1.5 text-zinc-400 hover:text-white rounded-lg"
+              aria-label="Close preparation guide"
+              className="absolute top-4 right-4 p-1.5 text-zinc-400 hover:text-white rounded-lg focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none"
             >
               <X className="w-5 h-5" />
             </button>
