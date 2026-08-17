@@ -66,9 +66,18 @@ export default function App() {
 
   // Filters
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const [noiseFilter, setNoiseFilter] = useState('');
   const [lightFilter, setLightFilter] = useState('');
   const [crowdFilter, setCrowdFilter] = useState('');
+
+  // ⚡ Optimization: Debounce search query input (300ms delay) to prevent excessive API calls on every keystroke
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
 
   // Modals & Selections
   const [selectedEvent, setSelectedEvent] = useState<SensoryEvent | null>(null);
@@ -132,7 +141,7 @@ export default function App() {
 
   const handleFilterSearch = async () => {
     const filtered = await apiService.getEvents({
-      q: searchQuery,
+      q: debouncedSearchQuery,
       noise: noiseFilter || undefined,
       lights: lightFilter || undefined,
       crowds: crowdFilter || undefined
@@ -140,9 +149,10 @@ export default function App() {
     setEvents(filtered);
   };
 
+  // ⚡ Optimization: Trigger search only when debounced query or select filters change
   useEffect(() => {
     handleFilterSearch();
-  }, [searchQuery, noiseFilter, lightFilter, crowdFilter]);
+  }, [debouncedSearchQuery, noiseFilter, lightFilter, crowdFilter]);
 
   const handleVerifyEvent = async (id: string) => {
     await apiService.verifyEvent(id);
